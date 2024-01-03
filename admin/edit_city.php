@@ -80,12 +80,12 @@
 
                 <h2 style=" color: red">Chỉnh sửa - thành phố "<?php echo $dong['name_city'] ?>"</h2>
                 <div class="form-group">
-                    <label>Mã loại sản phẩm</label>
+                    <label>Mã thành phố</label>
                     <input type="text" name="code_city" value="<?php echo $dong['code_city']; ?>" class="form-control" placeholder='Mã thành phố'/>
                 </div>
 
                 <div class="form-group">
-                    <label>Tên loại sản phẩm</label>
+                    <label>Tên thành phố</label>
                     <input type="text" name="name_city" value="<?php echo $dong['name_city']; ?>" class="form-control" id="name_category" placeholder='Tên thành phố'/>
                 </div>
 

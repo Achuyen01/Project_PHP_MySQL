@@ -14,7 +14,7 @@
                echo $name_user;
                ?>
                <div style=" padding-left: 15px;font-size: 12px">
-                 <i class="fa fa-fw fa-circle" style="color: #5cb85c; font-size: 10px;"></i> online
+                 <i class="fa fa-fw fa-circle" style="color: #5cb85c; font-size: 10px;"></i> Chuyên Trịnh
              </div>
          </a>
      </li>

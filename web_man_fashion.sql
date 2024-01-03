@@ -989,10 +989,10 @@ INSERT INTO `tb_information` (`id`, `name`, `value`) VALUES
 (3, 'logo_header', 'image/logo-top.png'),
 (4, 'logo_footer', 'image/logo-bottom.png'),
 (5, 'email', ' 3T-Shop@gmail.com.vn'),
-(6, 'phone', ' 01272311832 01262898272'),
-(7, 'adress', '$%^$%^ 384 NguyễnVănCừ, P.AnHòa, Q.NinhKiều, Tp.CầnThơ'),
+(6, 'phone', ' 0963832571 0123456789'),
+(7, 'adress', 'Thanh Hóa'),
 (15, 'slider', 'image/g144.jpg image/g137.jpg image/g142.jpg image/g143.jpg image/g116.jpg'),
-(16, 'fb', 'https://www.facebook.com/gia.tuan.334491/'),
+(16, 'fb', 'https://www.facebook.com/ly.a.thanh.01/'),
 (17, 'image_1', 'image/slide-1-trang-chu-slide-1.jpg'),
 (18, 'category_1', '17'),
 (19, 'image_2', 'image/slide-2-trang-chu-slide-2.jpg'),
@@ -1057,13 +1057,13 @@ CREATE TABLE `tb_order` (
 --
 
 INSERT INTO `tb_order` (`id_order`, `code_order`, `status_order`, `id_product`, `size_product`, `quantity_product`, `name_customer`, `phone_customer`, `address_customer`, `email_customer`, `order_day`, `id_district`) VALUES
-(53, '9615329', '1', 19, 's', 1, 'Lê Ngọc Tiến Thành', '01262898272', 'abc, Hòa Lạc', 'lengoctienthanh@gmail.com', '2022-06-10 21:48:00', 7),
-(54, '3296782', '1', 19, 'l', 4, 'Lê Ngọc Tiến Thành', '01262898272', '123, abcd', 'lengoctienthanh@gmail.com', '2022-06-10 23:05:00', 26),
-(55, '3296782', '1', 20, 'xl', 9, 'Lê Ngọc Tiến Thành', '01262898272', '123, abcd', 'lengoctienthanh@gmail.com', '2022-06-10 23:05:00', 26),
-(56, '3296782', '1', 21, 'm', 6, 'Lê Ngọc Tiến Thành', '01262898272', '123, abcd', 'lengoctienthanh@gmail.com', '2022-06-10 23:05:00', 26),
-(57, '9887352', '1', 20, 'L', 6, 'Lê Ngọc Tiến Thành', '01262898272', '188/48B Nguyễn Văn Cừ, An Hòa', 'lengoctienthanh@gmail.com', '2022-06-11 08:04:38', 28),
-(62, '4387044', '1', 20, 'l', 4, 'Lê Ngọc Tiến Trung', '01262898272', ' 123, Cái Răng', 'lengoctienthanh@gmail.com', '2022-06-12 08:59:00', 8),
-(63, '4387044', '1', 21, 'm', 6, 'Lê Ngọc Tiến Trung', '01262898272', ' 123, Cái Răng', 'lengoctienthanh@gmail.com', '2022-06-12 08:59:00', 8);
+(53, '9615329', '1', 19, 's', 1, 'Ly A Thành', '01262898272', 'abc, Hòa Lạc', 'lyathanh@gmail.com', '2023-06-10 21:48:00', 7),
+(54, '3296782', '1', 19, 'l', 4, 'Ly A Thành', '01262898272', '123, abcd', 'lyathanh@gmail.com', '2023-06-10 23:05:00', 26),
+(55, '3296782', '1', 20, 'xl', 9,'Ly A Thành', '01262898272', '123, abcd', 'lyathanh@gmail.com', '2023-06-10 23:05:00', 26),
+(56, '3296782', '1', 21, 'm', 6, 'Ly A Thành', '01262898272', '123, abcd', 'lyathanh@gmail.com', '2023-06-10 23:05:00', 26),
+(57, '9887352', '1', 20, 'L', 6, 'Ly A Thành', '01262898272', '188/48B Nguyễn Văn Cừ, An Hòa', 'lyathanh@gmail', '2023-06-11 08:04:38', 28),
+(62, '4387044', '1', 20, 'l', 4, 'Ly A Thành', '01262898272', ' 123, Cái Răng', 'lyathanh@gmail', '2023-06-12 08:59:00', 8),
+(63, '4387044', '1', 21, 'm', 6, 'Ly A Thành', '01262898272', ' 123, Cái Răng', 'lyathanh@gmail', '2023-06-12 08:59:00', 8);
 
 -- --------------------------------------------------------
 
@@ -1225,7 +1225,7 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id_user`, `account_user`, `pass_user`, `name_user`, `birthday_user`, `cmnd_user`, `address_user`, `phonenumber_user`, `email_user`, `type_user`, `status_user`) VALUES
-(7, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'Gia Tuấn', '1997-10-18', '362489844', '188/48B Nguyễn Văn Cừ', '01262898272', 'lengoctienthanh@gmail.com', '0', 1);
+(7, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'Ly A Thành', '2001-10-18', '362489844', 'Hà Giang', '01262898272', 'lengoctienthanh@gmail.com', '0', 1);
 
 --
 -- Indexes for dumped tables
