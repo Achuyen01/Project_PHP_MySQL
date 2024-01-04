@@ -6,7 +6,7 @@ include('inc/function.php');
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Quần áo nam đẹp, quần áo hàng hiệu, cao cấp kiểu 2017</title>
+    <title>Ly A Thành</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
